@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d0536776-80b0-4e33-80bb-e4eb3c619832
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Start building your site'
+  created:
+    -
+      value: 1721065500
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /start-building-your-site-0
+      langcode: en
+      pathauto: 1
+  field_comment:
+    -
+      status: 1
+      cid: 0
+      last_comment_timestamp: 1721065696
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_padding:
+    -
+      value: false
+  field_summary:
+    -
+      value: '<p>Go to <a href="/sites/default/files/help/index.html"><strong>Club Help</strong></a> on the top black menu for information about this system and how to start building your site.</p><p>Delete this page after you add content to the home page.</p>'
+      format: summary_fields
+  field_text:
+    -
+      value: '<p>Go to <a href="/sites/default/files/help/index.html"><strong>Club Help</strong></a> on the top black menu for information about this system and how to start building your site.</p><p>Delete this page after you add content to the home page.</p>'
+      format: full_html
+  field_type_of_page:
+    -
+      value: 1

@@ -1,0 +1,25 @@
+{
+    "name": "bikeclub/bikeclub_default_content",
+    "description": "Provides sample data for menus, nodes, and users.",
+    "keywords": ["recipe", "Drupal standard install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nancy Cole",
+            "homepage": "https://bikeclubsites.com",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": {
+		"bikeclub_content_type_base": { "type": "vcs", "url": "https://github.com/NCole29/bikeclub_content_type_base" },
+        "bikeclub_page": { "type": "vcs", "url": "https://github.com/NCole29/bikeclub_page" }
+    },	
+    "require": {
+        "bikeclub/bikeclub_content_type_base": ">=1.0",
+        "bikeclub/bikeclub_page": ">=1.0",
+        "drupal/conditional_fields": "^4.0@alpha",
+        "drupal/scheduler": ">=2.1"
+    },
+    "version": "1.0.1"
+}

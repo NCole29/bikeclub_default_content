@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ad2ce103-f0ad-48a9-973a-19dda1d43db7
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    ab450c99-8cb6-4089-bf48-4c15909b57a3: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Club reports'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:ab450c99-8cb6-4089-bf48-4c15909b57a3'
+  revision_translation_affected:
+    -
+      value: true

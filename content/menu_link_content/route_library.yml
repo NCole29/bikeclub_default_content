@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: fb3d5b47-f638-4790-8103-d9ef3446f754
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    63ecbaac-1209-4347-a97a-e32458c1b592: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Route library'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/club-routes'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: true
+  parent:
+    -
+      value: 'menu_link_content:63ecbaac-1209-4347-a97a-e32458c1b592'
+  revision_translation_affected:
+    -
+      value: true

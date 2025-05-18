@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 14f77699-b79c-4be6-a928-449089b45d65
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: 'Buzz Lightyear'
+  pass:
+    -
+      value: $2y$10$2xFU2jqgJZha4xbP30tjMOL5dXJIkZu6N4w1S6E2Kx77lK9RuGxzG
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: buzz.lightyear@disney.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1717115103
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  roles:
+    -
+      target_id: member
+    -
+      target_id: ride_leader
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

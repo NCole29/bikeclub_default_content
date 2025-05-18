@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 91925cd5-52cf-4603-9140-99cb690ede51
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    a817f769-aecc-4bfb-a05c-e37f945fe0c4: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Join NSC'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: a817f769-aecc-4bfb-a05c-e37f945fe0c4
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true

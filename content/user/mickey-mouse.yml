@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: c9328027-c54c-496c-b471-fc17990215cf
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: 'Mickey Mouse'
+  pass:
+    -
+      value: $2y$10$GIX5eWcm/bTkkS5QVYdIgeHwxTS8OpqS4IHPdW0kYQ7d7MQJWFdJq
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mickey.mouse@disney.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1704478526
+  access:
+    -
+      value: 1706026320
+  login:
+    -
+      value: 0
+  roles:
+    -
+      target_id: member
+    -
+      target_id: clerk
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

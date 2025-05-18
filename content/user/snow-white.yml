@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: b19da8ed-ead4-4ff3-acad-52cf865dea2e
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: 'Snow White'
+  pass:
+    -
+      value: $2y$10$nTSUv5j38sJw9Gk2rYPxiugHGTHu4XUdl8MyV8IgOq0MvwS8oVKqi
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: snow.white@disney.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1717115133
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  roles:
+    -
+      target_id: member
+    -
+      target_id: ride_leader
+    -
+      target_id: rides_coordinator
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

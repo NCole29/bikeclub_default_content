@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 7268ac0a-1f75-4538-b496-677b375dcd76
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: 'Donald Duck'
+  pass:
+    -
+      value: $2y$10$v4ihGe7naCOTw0tnrs6rtOJZRxg4hL3MekVSDTwOA1kGXJfDw.K4q
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: donald.duck@disney.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1705683847
+  access:
+    -
+      value: 1706023693
+  login:
+    -
+      value: 0
+  roles:
+    -
+      target_id: member
+    -
+      target_id: president
+  role_change:
+    -
+      target_id: __role_delegation_empty_field_value__
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

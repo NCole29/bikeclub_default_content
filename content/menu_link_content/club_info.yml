@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a13d1379-da03-4730-bb8e-e59824ebfc5f
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Club info'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/club-administration'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -46
+  expanded:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
