@@ -11,12 +11,7 @@
       "role": "Maintainer"
     }
   ],
-  "repositories": {
-    "bikeclub_content_type_base": { "type": "vcs", "url": "https://github.com/NCole29/bikeclub_content_type_base" },
-    "bikeclub_page": { "type": "vcs", "url": "https://github.com/NCole29/bikeclub_page" }
-  },	
   "require": {
-    "bikeclub/bikeclub_content_type_base": ">=1.0",
     "bikeclub/bikeclub_page": ">=1.0",
     "drupal/conditional_fields": "^4.0@alpha",
     "drupal/scheduler": ">=2.1"

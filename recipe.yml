@@ -2,5 +2,4 @@ name: 'Bikeclub Default content'
 description: 'Provides sample data for menus, nodes, and users.'
 type: 'Content'
 recipes:
-  - bikeclub_content_type_base
   - bikeclub_page
