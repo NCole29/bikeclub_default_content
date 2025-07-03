@@ -40,9 +40,6 @@ default:
       target_id: ride_leader
     -
       target_id: rides_coordinator
-  role_change:
-    -
-      target_id: __role_delegation_empty_field_value__
   path:
     -
       alias: ''

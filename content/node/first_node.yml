@@ -29,22 +29,11 @@ default:
   revision_translation_affected:
     -
       value: true
-  moderation_state:
-    -
-      value: published
   path:
     -
       alias: /start-building-your-site-0
       langcode: en
       pathauto: 1
-  field_comment:
-    -
-      status: 1
-      cid: 0
-      last_comment_timestamp: 1721065696
-      last_comment_name: ''
-      last_comment_uid: 1
-      comment_count: 0
   field_padding:
     -
       value: false
@@ -55,7 +44,7 @@ default:
   field_text:
     -
       value: '<p>Go to <a href="/sites/default/files/help/index.html"><strong>Club Help</strong></a> on the top black menu for information about this system and how to start building your site.</p><p>Delete this page after you add content to the home page.</p>'
-      format: full_html
+      format: basic_html
   field_type_of_page:
     -
       value: 1

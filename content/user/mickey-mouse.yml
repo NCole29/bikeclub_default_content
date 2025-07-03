@@ -36,11 +36,6 @@ default:
   roles:
     -
       target_id: member
-    -
-      target_id: clerk
-  role_change:
-    -
-      target_id: __role_delegation_empty_field_value__
   path:
     -
       alias: ''

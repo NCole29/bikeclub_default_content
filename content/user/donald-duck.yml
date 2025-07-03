@@ -37,10 +37,7 @@ default:
     -
       target_id: member
     -
-      target_id: president
-  role_change:
-    -
-      target_id: __role_delegation_empty_field_value__
+      target_id: site_admin
   path:
     -
       alias: ''

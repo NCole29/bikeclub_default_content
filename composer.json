@@ -12,9 +12,9 @@
     }
   ],
   "require": {
-    "bikeclub/bikeclub_page": ">=1.0",
+    "bikeclub/bikeclub_page": "dev-main",
     "drupal/conditional_fields": "^4.0@alpha",
-    "drupal/scheduler": ">=2.1"
+    "drupal/scheduler": "^2.0"
   },
   "version": "1.0.1"
 }
