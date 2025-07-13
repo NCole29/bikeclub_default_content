@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - club_media
+name: Activities
+vid: activities
+description: 'Types of activities listed on the calendar.'
+weight: 0
+new_revision: false

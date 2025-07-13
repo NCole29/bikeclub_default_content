@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1b4afdbb-969f-468e-b9e9-8e32adaf0a7f
+  bundle: positions
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Century coordinator'
+  weight:
+    -
+      value: 7
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_disabled:
+    -
+      value: false
+  field_position_category:
+    -
+      value: Coordinators
+  field_website_role:
+    -
+      target_id: editor
