@@ -1,9 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  enforced:
-    module:
-      - club_media
+dependencies: {  }
 name: Activities
 vid: activities
 description: 'Types of activities listed on the calendar.'
