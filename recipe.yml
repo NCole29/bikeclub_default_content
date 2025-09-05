@@ -3,3 +3,6 @@ description: 'Provides sample data for menus, nodes, and users.'
 type: 'Content'
 recipes:
   - bikeclub_page
+config:
+  # Strict false applies to config folder, positions taxonomy is created if it does not exist.
+  strict: false

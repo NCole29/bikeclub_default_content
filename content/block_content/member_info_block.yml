@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: member_info_block
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Member Info'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<h3><strong>MEMBER INFO</strong></h3><p>Club members have access to special features when logged in to the Club web site.</p><p><strong>Self-service account links&nbsp;</strong></p><ul><li><a href="/user/edit-contact-info">Edit contact info</a>&nbsp;-&nbsp;Keep your contact info up-to-date!</li><li>Edit email address and&nbsp;password&nbsp;- Use the link under My Account and your username</li><li><a href="/form/renew-membership">Renew your membership</a></li></ul><p><strong>Member-only website content&nbsp;</strong></p><ul><li>Sign up for the <a href="/ride-gps-club-account">RideWithGPS club account</a>&nbsp;</li><li>See member-only announcements on the home page&nbsp;when logged-in</li></ul><p>Use the <a href="/user"><strong>My Account</strong></a> link at the top right of the page to return here from anywhere in the website.</p><p><strong>Questions? </strong>Send an email to our&nbsp;<a href="/club-leaders"><strong>Membership Coordinator</strong></a></p><p><strong>Note: </strong>Site pages load faster when you are not logged in. Log out when you do not need access to restricted information.</p>'
+      format: basic_html
+      summary: ''
